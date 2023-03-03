@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_bg"
+    android:layout_margin="5dp"
+    android:elevation="1dp"
+    android:padding="10dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivMovieThumb"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_play"
+        app:layout_constraintTop_toTopOf="@id/ivMovieThumb"
+        app:layout_constraintBottom_toBottomOf="@id/ivMovieThumb"
+        app:layout_constraintStart_toStartOf="@id/ivMovieThumb"
+        app:layout_constraintEnd_toEndOf="@id/ivMovieThumb"
+        android:padding="15dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/title"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivMovieThumb"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/description"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/ivMovieThumb"
+        app:layout_constraintTop_toBottomOf="@id/tvMovieName" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/subtitle"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvMovieDescription"
+        android:gravity="end"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

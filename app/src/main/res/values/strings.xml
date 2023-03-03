@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVM Retrofit Movie</string>
+    <string name="title">Title</string>
+    <string name="description">description</string>
+    <string name="subtitle">subtitle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

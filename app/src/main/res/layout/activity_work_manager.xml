@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="50dp"
+    tools:context=".workManger.WorkManagerActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/card_view_bg"
+        android:backgroundTint="#EAEAEA"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="Start Date"
+        android:inputType="datetime"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_view_bg"
+        android:backgroundTint="#EAEAEA"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="Time"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etStart" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_view_bg3"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:text="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etTime" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnDaysUp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="10dp"
+        android:focusable="false"
+        android:src="@drawable/ic_arrow_up"
+        app:layout_constraintBottom_toTopOf="@+id/btnDaysDown"
+        app:layout_constraintEnd_toEndOf="@id/etDays"
+        app:layout_constraintTop_toTopOf="@+id/etDays"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnDaysDown"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:focusable="false"
+        android:src="@drawable/ic_arrow_down"
+        app:layout_constraintBottom_toBottomOf="@+id/etDays"
+        app:layout_constraintEnd_toEndOf="@+id/btnDaysUp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btnDaysUp"
+        app:layout_constraintTop_toBottomOf="@+id/btnDaysUp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etDays"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_view_bg"
+        android:backgroundTint="#4CAF50"
+        android:text="Submit"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnChangeRingtone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnSubmit"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_view_bg"
+        android:backgroundTint="#FF9800"
+        android:text="Change Ringtone"
+        android:textColor="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

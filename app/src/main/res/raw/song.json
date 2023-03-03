@@ -1,0 +1,50 @@
+{
+  "artist_post":{
+    "artist_thumb": "https://i.pinimg.com/originals/11/bb/0a/11bb0a8d4debad82bf7fee22f76636f0.jpg",
+    "artist_name": "will",
+    "post_date": "01-01-2023",
+    "post_thumb": "post.png",
+    "songs": [
+      {
+        "song_thumb": "https://cdn.naturettl.com/wp-content/uploads/2019/08/30182404/how-to-photograph-black-and-white-landscapes-900x600.jpg",
+        "song_name": "SantyD",
+        "song_likes":"445",
+        "song_comments":"45",
+        "song_url":"http://codeskulptor-demos.commondatastorage.googleapis.com/descent/Zombie.mp3",
+        "song_track_timeline": "0:31:40"
+      },
+      {
+        "song_thumb": "https://wallpapercave.com/wp/mpob0iT.jpg",
+        "song_name": "Chanpory Rith",
+        "song_likes":"152",
+        "song_comments":"81",
+        "song_url":"http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/fx/engine-8.ogg",
+        "song_track_timeline": "0:13:10"
+      },
+      {
+        "song_thumb": "https://c4.wallpaperflare.com/wallpaper/322/294/512/blacktop-in-black-white-wallpaper-preview.jpg",
+        "song_name": "Chanpory Rith",
+        "song_likes":"8820",
+        "song_comments":"555",
+        "song_url":"http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3",
+        "song_track_timeline": "1:20:10"
+      },
+      {
+        "song_thumb": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700434210.jpg",
+        "song_name": "tomas",
+        "song_likes":"123",
+        "song_comments":"465",
+        "song_url":"http://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/fx/engine-8.ogg",
+        "song_track_timeline": "1:15:23"
+      },
+      {
+        "song_thumb": "https://p4.wallpaperbetter.com/wallpaper/881/383/593/black-nature-black-and-white-sky-wallpaper-preview.jpg",
+        "song_name": "alan walker",
+        "song_likes":"991",
+        "song_comments":"345",
+        "song_url":"http://codeskulptor-demos.commondatastorage.googleapis.com/descent/Zombie.mp3",
+        "song_track_timeline": "0:17:35"
+      }
+    ]
+  }
+}
